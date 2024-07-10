@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+    <test name="Tools QA">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickRadio1*"></include>
+                    <parameter name="Caso" value="testClickRadio1"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA1">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickRadio2*"></include>
+                    <parameter name="Caso" value="testClickRadio2"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA2">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickLabel*"></include>
+                    <parameter name="Caso" value="testClickLabel"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA3">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickInactivo*"></include>
+                    <parameter name="Caso" value="testClickInactivo"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA4">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickHorizontal*"></include>
+                    <parameter name="Caso" value="testClickHorizontal"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA5">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickVertical*"></include>
+                    <parameter name="Caso" value="testClickVertical"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickRadio1*"></include>
+                    <parameter name="Caso" value="testClickRadio1"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.1">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickRadio2*"></include>
+                    <parameter name="Caso" value="testClickRadio2"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.2">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickLabel*"></include>
+                    <parameter name="Caso" value="testClickLabel"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.3">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickInactivo*"></include>
+                    <parameter name="Caso" value="testClickInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.4">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickHorizontal*"></include>
+                    <parameter name="Caso" value="testClickHorizontal"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.5">
+        <classes>
+            <class name="produccion.Radiobutton">
+                <methods>
+                    <include name=".*testClickVertical*"></include>
+                    <parameter name="Caso" value="testClickVertical"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

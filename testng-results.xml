@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-26T11:14:39 COT" name="Default suite" finished-at="2021-08-26T11:14:50 COT" duration-ms="10760">
+    <groups>
+    </groups>
+    <test started-at="2021-08-26T11:14:39 COT" name="Default test" finished-at="2021-08-26T11:14:50 COT" duration-ms="10760">
+      <class name="produccion.Alert">
+        <test-method is-config="true" signature="EntrarAlDesign()[pri:0, instance:produccion.Autocomplete@3ee37e5a]" started-at="2021-08-26T11:14:39 COT" name="EntrarAlDesign" finished-at="2021-08-26T11:14:49 COT" duration-ms="10725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EntrarAlDesign -->
+        <test-method signature="ProbarElAutocomplete()[pri:0, instance:produccion.Autocomplete@3ee37e5a]" started-at="2021-08-26T11:14:50 COT" name="ProbarElAutocomplete" finished-at="2021-08-26T11:14:50 COT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProbarElAutocomplete -->
+      </class> <!-- Produccion.Autocomplete -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

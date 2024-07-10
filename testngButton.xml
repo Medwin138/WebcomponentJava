@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+    <test name="Tools QA">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonNormal*"></include>
+                    <parameter name="Caso" value="testClickBotonNormal en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.0">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonNormal*"></include>
+                    <parameter name="Caso" value="testClickBotonNormal desktop"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA1">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonNormalSecundario*"></include>
+                    <parameter name="Caso" value="testClickBotonNormalSecundario desptok"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.1">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonNormalSecundario*"></include>
+                    <parameter name="Caso" value="testClickBotonNormalSecundario en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA2">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonNormalTerciario*"></include>
+                    <parameter name="Caso" value="testClickBotonNormalTerciario en Destopk"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.2">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonNormalTerciario*"></include>
+                    <parameter name="Caso" value="testClickBotonNormalTerciario en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA3">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonIcono*"></include>
+                    <parameter name="Caso" value="testClickBotonIcono en Desptok"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.3">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonIcono*"></include>
+                    <parameter name="Caso" value="testClickBotonIcono en tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA4">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonFlecha*"></include>
+                    <parameter name="Caso" value="testClickBotonFlecha Desptok"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.4">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonFlecha*"></include>
+                    <parameter name="Caso" value="testClickBotonFlecha En Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA5">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonGrande*"></include>
+                    <parameter name="Caso" value="testClickBotonGrande En Desptok"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.5">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonGrande*"></include>
+                    <parameter name="Caso" value="testClickBotonGrande en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA6">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonpequeño*"></include>
+                    <parameter name="Caso" value="testClickBotonpequeño en Desptok"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.6">
+        <classes>
+            <class name="produccion.Button">
+                <methods>
+                    <include name=".*testClickBotonpequeño*"></include>
+                    <parameter name="Caso" value="testClickBotonpequeño en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

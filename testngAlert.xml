@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+    <test name="Tools QA1">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickEnTitulo*"></include>
+                    <parameter name="Caso" value="testAlertClickEnTitulo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.1">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickEnTitulo*"></include>
+                    <parameter name="Caso" value="Alert_test_Click_En_Titulo_Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA2">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickBoton*"></include>
+                    <parameter name="Caso" value="testAlertClickBoton"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.2">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickBoton*"></include>
+                    <parameter name="Caso" value="Alert_test_Click_Boton_Tablet"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value="MAC"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA3">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickCerrar*"></include>
+                    <parameter name="Caso" value="testAlertClickCerrar"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.3">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickCerrar*"></include>
+                    <parameter name="Caso" value="Alert_test_Click_Cerrar_Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="MAC"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA4">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloExito*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloExito"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.4">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloExito*"></include>
+                    <parameter name="Caso" value="Alert_test_Click_Titulo_Exito_Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA5">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloInfo*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloInfo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.5">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloInfo*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloInfo"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA6">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloAlert*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloAlert"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.6">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloAlert*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloAlert"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA7">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloError*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloError"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.7">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloError*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloError"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA8">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonActivar*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonActivar"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.8">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonActivar*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonActivar"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA9">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonActivarInfo*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonActivarInfo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.9">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonActivarInfo*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonActivarInfo"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA10">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonActivarAlert*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonActivarAlert"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.10">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonActivarAlert*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonActivarAlert"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA11">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonActivarError*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonActivarError"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.11">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonActivarError*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonActivarError"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA12">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonCerrarActivar*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonCerrarActivar"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.12">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonCerrarActivar*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonCerrarActivar"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA13">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonCerrarInfo*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonCerrarInfo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.13">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonCerrarInfo*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonCerrarInfo"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA14">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonCerrarAlert*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonCerrarAlert"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.14">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonCerrarAlert*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonCerrarAlert"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA15">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonCerrarError*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonCerrarError"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.15">
+        <classes>
+            <class name="produccion.Alert">
+                <methods>
+                    <include name=".*testAlertClickTituloBotonCerrarError*"></include>
+                    <parameter name="Caso" value="testAlertClickTituloBotonCerrarError"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

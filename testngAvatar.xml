@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+    <test name="Tools QA">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickNormalGrande*"></include>
+                    <parameter name="Caso" value="testClickNormalGrande"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.0">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickNormalGrande*"></include>
+                    <parameter name="Caso" value="Acordeon_testClickNormalGrande"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA1">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickNormalMediano*"></include>
+                    <parameter name="Caso" value="testClickNormalMediano"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA2">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickNormalPequeno*"></include>
+                    <parameter name="Caso" value="testClickNormalPequeno"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA3">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickIconoGrande*"></include>
+                    <parameter name="Caso" value="testClickIconoGrande"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA4">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickIconoPequeno*"></include>
+                    <parameter name="Caso" value="testClickIconoPequeno"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA5">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickImagenGrande*"></include>
+                    <parameter name="Caso" value="testClickImagenGrande"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA6">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickImagenMediano*"></include>
+                    <parameter name="Caso" value="testClickImagenMediano"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA7">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickImagenPequeno*"></include>
+                    <parameter name="Caso" value="testClickImagenPequeno"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA8">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickNormalGrandeInactivo*"></include>
+                    <parameter name="Caso" value="testClickNormalGrandeInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA9">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickNormalMedianoInactivo*"></include>
+                    <parameter name="Caso" value="testClickNormalMedianoInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA10">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickNormalPequenoInactivo*"></include>
+                    <parameter name="Caso" value="testClickNormalPequenoInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA11">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickIconoGrandeInactivo*"></include>
+                    <parameter name="Caso" value="testClickIconoGrandeInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA12">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickIconoMedianoInactivo*"></include>
+                    <parameter name="Caso" value="testClickIconoMedianoInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA13">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickIconoPequenoInactivo*"></include>
+                    <parameter name="Caso" value="testClickIconoPequenoInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA14">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickImagenGrandeInactivo*"></include>
+                    <parameter name="Caso" value="testClickImagenGrandeInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA15">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickImagenMedianoInactivo*"></include>
+                    <parameter name="Caso" value="testClickImagenMedianoInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA16">
+        <classes>
+            <class name="produccion.Avatar">
+                <methods>
+                    <include name=".*testClickImagenPequenoInactivo*"></include>
+                    <parameter name="Caso" value="testClickImagenPequenoInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

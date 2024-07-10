@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+    <test name="Tools QA">
+        <classes>
+            <class name="produccion.Backdrop">
+                <methods>
+                    <include name=".*testClickActivarConAnimacion*"></include>
+                    <parameter name="Caso" value="testClickActivarConAnimacion"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.0">
+        <classes>
+            <class name="produccion.Backdrop">
+                <methods>
+                    <include name=".*testClickActivarConAnimacion*"></include>
+                    <parameter name="Caso" value="test_Click_Activar_Con_Animacion en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA..0">
+        <classes>
+            <class name="produccion.Backdrop">
+                <methods>
+                    <include name=".*testClickActivarConAnimacion*"></include>
+                    <parameter name="Caso" value="test_Click_Activar_Con_Animacion en MAC"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value="MAC"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA1">
+        <classes>
+            <class name="produccion.Backdrop">
+                <methods>
+                    <include name=".*testClickActivarSinAnimacion*"></include>
+                    <parameter name="Caso" value="testClickActivarSinAnimacion"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.1">
+        <classes>
+            <class name="produccion.Backdrop">
+                <methods>
+                    <include name=".*testClickActivarSinAnimacion*"></include>
+                    <parameter name="Caso" value="test_Click_Activar_Sin_Animacion en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA..1">
+        <classes>
+            <class name="produccion.Backdrop">
+                <methods>
+                    <include name=".*testClickActivarSinAnimacion*"></include>
+                    <parameter name="Caso" value="test_Click_Activar_Sin_Animacion en MAC"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value="MAC"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

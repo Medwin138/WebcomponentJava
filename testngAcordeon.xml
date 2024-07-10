@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+    <test name="Tools QA">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonClickRadioIcono*"></include>
+                    <parameter name="Caso" value="AcordeontestAcordeonClickRadioIcono en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.0">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonClickRadioIcono*"></include>
+                    <parameter name="Caso" value="testAcordeonClickRadioIcono"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA1">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonClickRadioDescripcion*"></include>
+                    <parameter name="Caso" value="testAcordeonClickRadioDescripcion"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.1">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonClickRadioDescripcion*"></include>
+                    <parameter name="Caso" value="AcordeontestAcordeonClickRadioDescripcion en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA2">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonClickRadioTag*"></include>
+                    <parameter name="Caso" value="testAcordeonClickRadioTag"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.2">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonClickRadioTag*"></include>
+                    <parameter name="Caso" value="testAcordeonClickRadioTag en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA3">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonClickRadioLabel*"></include>
+                    <parameter name="Caso" value="testAcordeonClickRadioLabel"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.3">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonClickRadioLabel*"></include>
+                    <parameter name="Caso" value="testAcordeonClickRadioLabel en tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA4">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonClickRadioInactivo*"></include>
+                    <parameter name="Caso" value="testAcordeonClickRadioInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.4">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonClickRadioInactivo*"></include>
+                    <parameter name="Caso" value="testAcordeonClickRadioInactivo En Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA5">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonVariantesActivas*"></include>
+                    <parameter name="Caso" value="testAcordeonVariantesActivas"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.5">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonVariantesActivas*"></include>
+                    <parameter name="Caso" value="testAcordeonVariantesActivas en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA6">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonVariantesInactivas*"></include>
+                    <parameter name="Caso" value="testAcordeonVariantesInactivas"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.6">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonVariantesInactivas*"></include>
+                    <parameter name="Caso" value="testAcordeonVariantesInactivas en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA7">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonRadioIconoInactivo*"></include>
+                    <parameter name="Caso" value="testAcordeonRadioIconoInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.7">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonRadioIconoInactivo*"></include>
+                    <parameter name="Caso" value="testAcordeonRadioIconoInactivo en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA8">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonRadioDescripcionInactivo*"></include>
+                    <parameter name="Caso" value="testAcordeonRadioDescripcionInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.8">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonRadioDescripcionInactivo*"></include>
+                    <parameter name="Caso" value="testAcordeonRadioDescripcionInactivo en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA9">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonRadioTagInactivo*"></include>
+                    <parameter name="Caso" value="testAcordeonRadioTagInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.clea9">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonRadioTagInactivo*"></include>
+                    <parameter name="Caso" value="testAcordeonRadioTagInactivo en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA10">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonRadioLabelInactivo*"></include>
+                    <parameter name="Caso" value="testAcordeonRadioLabelInactivo"></parameter>
+                    <parameter name="dT" value=""></parameter>
+                    <parameter name="dM" value=""></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Tools QA.10">
+        <classes>
+            <class name="produccion.Acordeon">
+                <methods>
+                    <include name=".*testAcordeonRadioLabelInactivo*"></include>
+                    <parameter name="Caso" value="testAcordeonRadioLabelInactivo en Tablet"></parameter>
+                    <parameter name="dT" value="5"></parameter>
+                    <parameter name="dM" value="Celular"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
